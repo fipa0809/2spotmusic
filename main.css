@@ -3,5 +3,113 @@
 }
 
 body {
+	font-family: 'Gafata', sans-serif;
+	background-color: #ddd;
+}
+
+
+.header-img {
+	width: 100%;
+	opacity: 0.4;
+}
+
+.header-text {
+	background-color: #ec7b7c;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	border-radius: 5px;
+	color: white;
+	font-size: 60px;
+	opacity: 0.9;
+}
+
+p {
+	position: absolute;
+	top: 120px;
+	right: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Advent Pro', sans-serif;
+	background-color: #ddd;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+p span {
+	font-weight: bold;
+	color: #097AFF;
+}
+
+.search-box-container {
+	position: relative;
+	top: 35px;
+}
+
+
+.search-text {
+	height: 50px;
+	font-size: 26px;
+	border-radius: 5px;
+	background-color: #666;
+}
+
+.search-box-container button {
+	background-color: #ec7b7c;
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 5px;
+}
+
+.search-box-container button:hover {
+	background-color: #097AFF;
+	cursor: pointer;
+}
+
+.search-box, header {
 	text-align: center;
 }
+
+.search-results-container {
+	height: 400px;
+	position: absolute;
+	top: 240px;
+	left: 350px;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	font-size: 44px;
+	text-decoration: underline;
+}
+
+ul {
+	color: black;
+	font-size: 40px;
+	text-shadow: 10px 10px 25px;
+}
+
+.play-button {
+	height: 40px;
+	border-radius: 5px;
+	background-color: #91d1bf;
+	font-size: 30px;
+}
+
+footer ol li {
+	list-style-type: none;
+	margin: 0px 20px;
+}
+
+.github-icon, .email-icon, .ig-icon, .linkedin-icon {
+	height: 50px;
+	width: 50px;
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+
